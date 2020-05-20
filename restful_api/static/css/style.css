@@ -1,0 +1,40 @@
+.container {
+    font-family: "Open Sans";
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: solid thin #cfcfcf;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form {
+    color: #232323;
+}
+
+.yes {
+  width: 25%;
+  background: green;
+  border: 0;
+  color: white;
+  height: 30px;
+}
+
+.no {
+  width: 25%;
+  background: red;
+  border: 0;
+  color: white;
+  height: 30px;
+}
+
+.error {
+    color:red;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.error2 {
+    color:red;
+}

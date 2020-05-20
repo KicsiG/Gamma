@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Game</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>          
+        <div class="container">
+            <div class="form">
+                <h1>Welcome!</h1>
+                <p>It is a fun game and now that people are stuck in home office it can be a great way to have to start the day with a common activity</p>
+                <h3>Rules</h3>
+                <p></p>It is a Multiplayer game. Each player picks a positive integer. The lowest unique integer wins</p>
+                <br>
+                <p>Do you want to play the Game?</p>
+                <form method="POST">
+                    <input type="submit" value="No" class="no" name="no">
+                    <input type="submit" value="Yes" class="yes" name="yes">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

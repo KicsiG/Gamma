@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Game</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>          
+        <div class="container">
+            <div class="form">
+                <h1>Let's start!</h1>
+                <p>Are your ready?</p>
+                <form method="POST">
+                    <label>Name: </label><input type="text" name="name"><br>
+                    <p class="error">{{user_error}}<p>
+                    <label>Number: </label><input type="text" name="number"><br>
+                    <p class="error">{{number_error}}<p>
+                    <input type="submit" value="Submit" class="yes"><br>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
